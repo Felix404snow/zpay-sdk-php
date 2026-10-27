@@ -1,0 +1,14 @@
+{
+  "name": "isnouu/zpay-sdk",
+  "description": "SDK PHP da API Z.PAY para aplicações de servidor",
+  "type": "library",
+  "homepage": "https://zpaysolution.com",
+  "support": {
+    "source": "https://github.com/Felix404snow/zpay-sdk-php",
+    "issues": "https://github.com/Felix404snow/zpay-sdk-php/issues"
+  },
+  "require": { "php": ">=8.1", "ext-curl": "*", "ext-json": "*" },
+  "autoload": { "psr-4": { "ZPay\\": "src/" } },
+  "scripts": { "test": "php tests/client.php" },
+  "archive": { "exclude": ["/tests", "/vendor", "/composer.lock"] }
+}
